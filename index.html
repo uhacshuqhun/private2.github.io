@@ -6,8 +6,8 @@
     <meta property="og:site_name" content="vlone.lol">
     <meta property="og:url" content="https://vlone.lol/">
     <meta property="og:title" content="@vlone ~ vlone.lol">
-    <meta property="og:description" content="vlone rapes curtains at night">
-    <meta property="og:image" content="https://vlone.lol/profilepic.png">
+    <meta property="og:description" content="100% skid, 0% gay">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1212492083546296392/1212868137540784169/5b3bf0e5a0f53221341b7a0caad83a4d.png">
 </head>
 
 <style>
@@ -21,7 +21,7 @@
     }
 
     body {
-        background-color: black;
+        background-color:#060707;
         padding: 0;
         margin: 0;
         height: 100%;
@@ -88,11 +88,6 @@
         animation: fadein 1s forwards;
     }
 
-    .glowing-text {
-        color: white;
-        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
-    }
-
     .next {
         top: 50%;
         left: 50%;
@@ -130,29 +125,26 @@
 
     <div id="blur-box">
         <div id="profile-picture">
-            <img src="profilepic.jpg" alt="Profile Picture">
+            <img src="files/profilepic.png" alt="Profile Picture">
         </div>
-        <div id="username">vlone</div>
-        <div id="bio">you're a skid</div>
+        <div id="username">vuhlone</div>
+        <div id="bio">your a skid</div>
     </div>
 
-    <video id="video-background" autoplay muted loop>
+    <video id="video-background" loop>
         <source src="Jace! - GoStyle 2023 Freestyle (Official Music Video).mp4" type="video/mp4">
     </video>
-
-    <audio id="audio-background" autoplay loop>
-        <source src="Jace! - GoStyle 2023 Freestyle (Official Music Video).mp3" type="audio/mpeg">
-    </audio>
 
     <script>
         document.getElementById("button").addEventListener("click", function () {
             var button = this;
             button.style.animation = "fadeout 1s forwards";
 
+            var bgAudio = document.getElementById("video-background"); 
             document.getElementById("blur-box").style.display = "block";
             document.getElementById("video-background").style.display = "block";
-            document.getElementById("audio-background").play();
+            bgAudio.play();
         });
     </script>
 </body>
-</html>
+</html
